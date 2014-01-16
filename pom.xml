@@ -34,6 +34,17 @@
         <maven>3.0</maven>
     </prerequisites>
 
+    <distributionManagement>
+	<repository>
+    	    <id>jspwiki</id>
+    	    <url>http://nexus.u1204.vtdomain/nexus/content/repositories/jspwiki-releases/</url>
+	</repository>
+	<snapshotRepository>
+    	    <id>jspwiki</id>
+    	    <url>http://nexus.u1204.vtdomain/nexus/content/repositories/jspwiki-snapshots/</url>
+	</snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jspwiki.jdk.version>1.6</jspwiki.jdk.version>
